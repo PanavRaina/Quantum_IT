@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 200px;
+  padding-bottom: 30px;
+  width: 600px;
+  border: 2px solid black;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.text {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.inputs {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 500px;
+  height: 80px;
+  background: #eaeaea;
+  border-radius: 6px;
+}
+
+.input img {
+  margin: 0px 30px;
+}
+
+.input input {
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+}
+
+.submit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the items horizontally */
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 60px;
+  color: #fff;
+  background-color: #4c00b4;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 19px;
+}
+.error-message {
+  text-align: center;
+  color: white;
+  background-color: red;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.added-text {
+  color: white;
+  font-size: 18px;
+}
+
+
+.added-text a {
+  color: white;
+  text-decoration: none; /* Remove underline */
+}
+
+.added-text a:hover {
+  color: white; /* Change color on hover if needed */
+}
